@@ -4,39 +4,23 @@ export const CompareConclution = () => {
   return (
     <>
       <Typography variant="h5" color="pink" sx={{ pb: 2 }}>
-        Når velge hva?
+        Hvorfor snakker jeg om Zustand
       </Typography>
       <Typography variant="body1">
-        Velg Context når:
+        • Raskt å sette seg inn i
         <br />
-        • Enkle applikasjoner med få state-endringer
+        • Rask utvikling og lite boilerplate
         <br />
-        • Statisk data som sjelden endres
+        • Enkel å sette opp i forhold til Redux
         <br />
-        • Små/medium prosjekter med få utviklere
+        • Performance er bra
         <br />
+        • Bra kompabilitet med MSW
         <br />
-        Velg Zustand når:
+        • Bra alternativ for state management
         <br />
-        • Medium kompleksitet i state management
+        • Bra dokumentasjon
         <br />
-        • Rask utvikling og lite boilerplate er prioritert
-        <br />
-        • Mindre team som trenger fleksibilitet
-        <br />
-        • Performance er viktig
-        <br />
-        <br />
-        Velg Redux når:
-        <br />
-        • Kompleks state management med mange actions
-        <br />
-        • Store team som trenger streng arkitektur
-        <br />
-        • Behov for omfattende DevTools
-        <br />
-        • Stort økosystem av middleware er nødvendig
-        <br />• Legacy prosjekter som allerede bruker Redux
       </Typography>
     </>
   );

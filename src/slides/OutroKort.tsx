@@ -1,7 +1,6 @@
 import { Stack, Typography } from "@mui/material";
 
 export const OutroKort = () => {
-  const textColor = "#d8f9ff";
   return (
     <Stack
       sx={{
@@ -21,14 +20,6 @@ export const OutroKort = () => {
         alt="create store"
         style={{ maxHeight: "50%" }}
       />
-      <Typography variant="h5" sx={{ pt: 2 }}>
-        <a
-          href="https://github.com/ahbakken/zustandIntro"
-          style={{ color: textColor, paddingTop: "20px" }}
-        >
-          Github
-        </a>
-      </Typography>
     </Stack>
   );
 };

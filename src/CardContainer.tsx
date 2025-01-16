@@ -41,8 +41,8 @@ export default function CardContainer() {
         {slide === 8 && <CompareRedux />}
         {slide === 9 && <CompareContext />}
         {slide === 10 && <CompareConclution />}
-        {slide === 11 && <Sources />}
-        {slide === 12 && <OutroKort />}
+        {slide === 11 && <OutroKort />}
+        {slide === 12 && <Sources />}
       </CardContent>
     </Card>
   );

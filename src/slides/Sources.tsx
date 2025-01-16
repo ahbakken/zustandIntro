@@ -35,6 +35,13 @@ export const Sources = () => {
         <li>GPT 4o</li>
         <li>Claude 3.5 Sonnet</li>
       </ul>
+      <div style={{ display: "flex", justifyContent: "center", width: "100%" }}>
+        <img
+          src="src/public/images/githubQR.png"
+          alt="create store"
+          style={{ maxWidth: "50%", maxHeight: "20%" }}
+        />
+      </div>
     </>
   );
 };
