@@ -11,7 +11,7 @@ export const UsingStoreForklaring = () => {
         <br />
         - Ikke behov for provider
         <br />
-        - Velg state du vil ha og omponenten re-rendrer når state endrer seg
+        - Velg state du vil ha og komponenten re-rendrer når state endrer seg
         <br />
         - Kan skille actions og state
         <br />
