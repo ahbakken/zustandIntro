@@ -1,7 +1,6 @@
 import { Stack, Typography } from "@mui/material";
-import { FC } from "react";
 
-export const IntroKort: FC = () => {
+export const IntroKort = () => {
   return (
     <Stack
       sx={{

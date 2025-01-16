@@ -1,4 +1,4 @@
-import { useStore } from "./store";
+import { useStore } from "./store/store";
 import { Button, Stack, Typography } from "@mui/material";
 
 export const SlideControl = () => {
@@ -8,7 +8,16 @@ export const SlideControl = () => {
 
   return (
     <>
-      <Stack spacing={3} direction="row" sx={{ alignItems: "center" }}>
+      <Stack
+        spacing={3}
+        direction="row"
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          textAlign: "center",
+        }}
+      >
         <Button
           variant="contained"
           onClick={previousSlide}

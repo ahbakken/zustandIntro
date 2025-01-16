@@ -19,16 +19,17 @@ export const OrdForklaring = () => {
         Tysk: tilstand, forfatning, situasjon, status, posisjon, stilling
       </Typography>
       <br />
-      <Typography sx={{ mb: 2 }}>
-        {
-          '"A small, fast, and scalable bearbones state management solution. Zustand has a comfy API based on hooks. It isn not boilerplatey or opinionated, but has enough convention to be explicit and flux-like."'
-        }
-      </Typography>
+
       <img
         src="src/public/images/zustand-bear.jpg"
         alt="zustand bear"
         style={{ maxWidth: "100%" }}
       />
+      <Typography sx={{ mt: 2 }}>
+        {
+          '"A small, fast, and scalable bearbones state management solution. Zustand has a comfy API based on hooks. It isn not boilerplatey or opinionated, but has enough convention to be explicit and flux-like."'
+        }
+      </Typography>
     </>
   );
 };
