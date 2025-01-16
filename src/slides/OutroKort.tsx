@@ -1,6 +1,7 @@
 import { Stack, Typography } from "@mui/material";
 
 export const OutroKort = () => {
+  const textColor = "#d8f9ff";
   return (
     <Stack
       sx={{
@@ -11,19 +12,22 @@ export const OutroKort = () => {
         textAlign: "center",
       }}
     >
-      <Typography variant="h3" component="div" color="pink">
+      <Typography variant="h1" component="div" color="pink">
         Takk for meg!
       </Typography>
-      <Typography variant="body2" sx={{ pb: 2 }}>
-        Zustand: Et alternativ mellom context og redux
-      </Typography>
+
       <img
         src="src/public/images/junkTakk.png"
         alt="create store"
-        style={{ maxHeight: "70%" }}
+        style={{ maxHeight: "50%" }}
       />
-      <Typography variant="body2" sx={{ pb: 2 }}>
-        Zustand: Et alternativ mellom context og redux
+      <Typography variant="h5" sx={{ pt: 2 }}>
+        <a
+          href="https://github.com/ahbakken/zustandIntro"
+          style={{ color: textColor, paddingTop: "20px" }}
+        >
+          Github
+        </a>
       </Typography>
     </Stack>
   );

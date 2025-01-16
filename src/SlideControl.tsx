@@ -25,12 +25,10 @@ export const SlideControl = () => {
         >
           Forrige
         </Button>
-        <Button variant="contained" onClick={nextSlide}>
+        <Button variant="contained" onClick={nextSlide} disabled={slide > 11}>
           Neste
         </Button>
-        <Typography variant="body2" sx={{ color: "#fff" }}>
-          Side: {slide}
-        </Typography>
+        <Typography variant="body2">Side: {slide}</Typography>
       </Stack>
     </>
   );

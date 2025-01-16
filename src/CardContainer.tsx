@@ -1,19 +1,19 @@
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import { useStore } from "./store/store";
-import { OrdForklaring } from "./slides/02OrdForklaring";
-import { CreateStore } from "./slides/03CreateStore";
-import { CreateStoreUser } from "./slides/04CreateStoreUser";
-import { UsingStore } from "./slides/05UsingStore";
-import { UsingStoreForklaring } from "./slides/06UsingStoreForklaring";
-import { UsingStoreInUtil } from "./slides/07UsingStoreInUtil";
+import { OrdForklaring } from "./slides/OrdForklaring";
+import { CreateStore } from "./slides/CreateStore";
+import { CreateStoreUser } from "./slides/CreateStoreUser";
+import { UsingStore } from "./slides/UsingStore";
+import { UsingStoreForklaring } from "./slides/UsingStoreForklaring";
+import { UsingStoreInUtil } from "./slides/UsingStoreInUtil";
 import { Sources } from "./slides/Sources";
 import { OutroKort } from "./slides/OutroKort";
-import { IntroKort } from "./slides/01IntroKort";
-import { UsingStoreAsync } from "./slides/08UsingStoreAsync";
-import { CompareRedux } from "./slides/09CompareRedux";
-import { CompareContext } from "./slides/10CompareContext";
-import { CompareConclution } from "./slides/11CompareConclution";
+import { IntroKort } from "./slides/IntroKort";
+import { UsingStoreAsync } from "./slides/UsingStoreAsync";
+import { CompareRedux } from "./slides/CompareRedux";
+import { CompareContext } from "./slides/CompareContext";
+import { CompareConclution } from "./slides/CompareConclution";
 
 export default function CardContainer() {
   const slide = useStore((state) => state.slide);
