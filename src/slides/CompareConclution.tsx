@@ -9,17 +9,15 @@ export const CompareConclution = () => {
       <Typography variant="body1">
         • Raskt å sette seg inn i
         <br />
+        • Bra dokumentasjon
+        <br />
         • Rask utvikling og lite boilerplate
         <br />
         • Enkel å sette opp i forhold til Redux
         <br />
-        • Performance er bra
-        <br />
         • Bra kompabilitet med MSW
         <br />
         • Bra alternativ for state management
-        <br />
-        • Bra dokumentasjon
         <br />
       </Typography>
     </>
